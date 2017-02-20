@@ -1,0 +1,6 @@
+*.pyc
+*.db
+lasterror.log
+request_headers.txt
+cookies.json
+__pycache__/
