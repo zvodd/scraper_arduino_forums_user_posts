@@ -8,8 +8,8 @@ from datetime import datetime
 
 Base = declarative_base()
 
-class HistoryEntry(Base):
-	__tablename__ = 'videoshistory'
+class PostEntry(Base):
+	__tablename__ = 'posts'
 	id = Column(Integer, primary_key=True)
 	post_id = Column(String, nullable=False) 
 	author_id = Column(String, nullable=False)
